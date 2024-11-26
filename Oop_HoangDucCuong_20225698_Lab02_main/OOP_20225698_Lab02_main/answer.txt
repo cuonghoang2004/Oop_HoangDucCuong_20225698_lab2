@@ -1,0 +1,5 @@
+Java không chấp nhận, vì sẽ gây xung đột với constructor method có tham số là String title 
+Nếu bạn có một constructor nhận tham số là String title và một constructor khác 
+cũng nhận tham số là String category, khi bạn truyền một tham số kiểu String cho 
+hàm khởi tạo, Java sẽ không biết nên gọi constructor nào vì cả hai đều có kiểu tham 
+số giống nhau. Điều này dẫn đến xung đột và gây lỗi biên dịch. 
